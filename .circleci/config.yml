@@ -1,0 +1,31 @@
+class Student:
+    def __init__(self, name, physics, english, mathematics):
+        self.name = name
+        self.p = physics
+        self.e = english
+        self.m = mathematics
+class Classroom:
+    def __init__(self,1):
+        self.1 = 1
+    def sum_of_marks_in_individual_subjects(self):
+      d = {"physics": 0, "english": 0, "mathematics": 0}
+      for i in self.1:
+          d{"physics"} += i.p
+          d{"english"} += i.e
+          d{"mathematics"} += i.m
+      return d
+    def list_of_absences_of_students_in_physics(self):
+        li=[]
+        i=0
+        while i<len(self.1):
+                if self.1[i] .p<10:
+                    li.append(self.1[i] .n)
+                i+=1
+        return li
+s=[]
+s.append(student("Bryce", 5,4,0))
+s.append(student("Rhyan", 0, 1, 0))
+s.append(student("Eric", 2, 2, 4))
+c=classroom(s)
+print(c.sum_of_marks_in_individual_subjects())
+print(c.list_of_absences_of_students_in_physics())
